@@ -9,7 +9,7 @@ enum TokenResolver {
             return token
         }
 
-        for key in ["GHGRAB_GITHUB_TOKEN", "GITHUB_TOKEN"] {
+        for key in ["GITPLUCK_GITHUB_TOKEN", "GHGRAB_GITHUB_TOKEN", "GITHUB_TOKEN"] {
             guard let token = normalize(ProcessInfo.processInfo.environment[key]) else {
                 continue
             }

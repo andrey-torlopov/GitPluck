@@ -90,6 +90,9 @@ enum HelpText {
       --token VALUE       GitHub token. Значения auto/gh читают токен через `gh auth token`
       -h, --help          Показать справку
 
+    Переменные окружения:
+      GITPLUCK_GITHUB_TOKEN, GITHUB_TOKEN
+
     Команды внутри браузера:
       <n>                 Выбрать/снять файл или папку по номеру
       t <n...>            Выбрать/снять несколько номеров
