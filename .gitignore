@@ -111,3 +111,9 @@ LoggerConfig.json
 *.xcuserstate
 .claude
 .idea
+
+# Local packaging
+builder.sh
+pkgroot/
+Artifacts/*
+!Artifacts/.gitkeep
